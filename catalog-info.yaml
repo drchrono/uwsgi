@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: uwsgi
+  description: uWSGI cookbook for opscode chef
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/uwsgi
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Ruby
+    - Shell
+    - HTML
